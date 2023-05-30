@@ -1,0 +1,195 @@
+
+body {
+  font-family: "Ubuntu";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  /*font-family: "Montserrat-Bold";*/
+  font-family: "Lato", sans-serif;
+
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Merriweather";
+  font-size: 3.0rem;
+  line-height: 1.2;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 3% 10%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #063970;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  /*padding: 0 0 1.0rem;*/
+  padding: 0% 10%;
+  background-color: #000;
+}
+
+.navbar-brand {
+  font-family: "Arial";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  font-family: "Arial";
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  /*background-color: #063970;*/
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 7% 10% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 55%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #2578d1;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #063970;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #2578d1;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+/*#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}*/
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.card-header {
+  background-color: #063970;
+  color: #fff;
+}
+
+/* CTA Section */
+
+#cta .container-fluid {
+  padding: 5% 10% 3%;
+}
+
+/* Footer Section */
+
+.social-icon {
+  margin: 5px 10px;
+  color: #fff;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#footer .container-fluid {
+  background-color: #000;
+}
